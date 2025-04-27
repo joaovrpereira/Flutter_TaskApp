@@ -45,6 +45,7 @@ class _SignupPageState extends State<SignupPage> {
                 "Sign Up.",
                 style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
               ),
+              const SizedBox(height: 15),
               TextFormField(
                 controller: nameController,
                 decoration: InputDecoration(hintText: "Name"),
